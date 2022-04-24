@@ -21,8 +21,8 @@ jobs:
           push: true
           tags: brantje/prometheus-rust-server-exporter:latest
       - name: Update repo description
-        uses: peter-evans/dockerhub-description@v2
+        uses: peter-evans/dockerhub-description@v3
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: brantje/prometheus-rust-server-exporter    
+          repository: brantje/prometheus-rust-server-exporter   
