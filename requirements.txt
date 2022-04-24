@@ -1,0 +1,2 @@
+websocket-client==0.58.0
+prometheus-client==0.14.1
