@@ -7,6 +7,7 @@ LABEL Maintainer="brantje"
 
 WORKDIR /usr/app/src
 
+RUN pip install -r requirements.txt
 
 COPY main.py ./
 CMD [ "python", "./main.py"]
